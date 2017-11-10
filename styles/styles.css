@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Spectral SC', serif;
+  font-size: 5em;
+  text-align: center;
+}
+
+#big_image {
+  display: block;
+  margin: auto;
+}
+
+article {
+margin: 5%;
+}
+
+.covers {
+  position: relative;
+}
+
+img {
+  padding: 10px;
+  max-width: 100%;
+}
+
+.song_name {
+  font-size: large;
+}
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+a:visited {
+  color: #C66BFF;
+}
+
+@media (max-width: 700px) {
+  body {margin: 0;
+  }
+  article { float: none;
+            margin: 0;
+            width: 100%;
+  }

@@ -2,33 +2,62 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Zac Brown Band</title>
+  	<link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Spectral+SC" rel="stylesheet">
 </head>
 <body>
-  <img src="images/zbb_big_image.jpg" alt="Zac Brown Band performing on stage">
+<article>
+  <h1>Zac Brown Band</h1>
+  <img id="big_image" src="images/zbb_big_image.jpg" alt="Zac Brown Band performing on stage">
   <p>Image courtesy of <a href="https://commons.wikimedia.org/wiki/File:Zac_Brown_Band_161020-A-HD608-100_(30797232284).jpg#/media/File:Zac_Brown_Band_161020-A-HD608-100_(30797232284).jpg">Wikimedia Commons</a>.</p>
-  <p>Zac Brown Band is an American country band, formed in the early 2000's, and features Zac Brown as lead vocals and guitar, along with seven other bass, guitar, percussion and fiddle players. They've won three Grammy Awards adn have been nominated for a total of 55 awards from Grammys, Academy of Country Music, American Music Awards, Country Music Association and Country Music Television. Zac Brown Band is the the second act ever to top both the country and active rock formats. They are currently on a 40+ date tour called "Welcome Home."</p>
-  <img src="images/the_foundation.jpg" alt="Zac Brown Band performing on stage">
-  <img src="images/uncaged.jpg" alt="Zac Brown Band performing on stage">
-  <img src="images/you_get_what_you_give.jpg" alt="Zac Brown Band performing on stage">
-  <img src="images/jekyll_and_hyde.jpg" alt="Zac Brown Band performing on stage">
-  <div id="jolene">
+  <p>Zac Brown Band is an American country band, formed in the early 2000's, and features Zac Brown as lead vocals and guitar, along with seven other bass, guitar, percussion and fiddle players. They've won three Grammy Awards and have been nominated for a total of 55 awards from Grammys, Academy of Country Music, American Music Awards, Country Music Association and Country Music Television. Zac Brown Band is the the second act ever to top both the country and active rock formats. They are currently on a 40+ date tour called "Welcome Home."</p>
+
+  <div id=images>
+
+    <img id="The_Foundation" class= "covers" src="images/the_foundation.jpg" alt="The Foundation Album Art">
+
+    <img id="Uncaged" class= "covers" src="images/uncaged.jpg" alt="Uncaged Album Art">
+
+    <img id="You_Get_What_You_Give" class= "covers" src="images/you_get_what_you_give.jpg" alt="You Get What You Give Album Art">
+
+    <img id="Jekyll_+_Hyde" class= "covers" src="images/jekyll_and_hyde.jpg" alt="Jekyll + Hyde Album Art">
+
+  </div>
+
+  <div id="jolene" class="song_name">
+  <p>"Jolene"</p>
   <audio controls preload="auto">
 	   <source src="audio/jolene.mp3" type="audio/mp3">
 	   <source src="audio/jolene.ogg" type="audio/ogg"></audio></div>
-  <div id="goodbye_in_her_eyes">
+
+  <div id="goodbye_in_her_eyes" class="song_name">
+  <p>"Goodbye In Her Eyes"</p>
   <audio controls preload="auto">
     <source src="audio/goodbye_in_her_eyes.mp3" type="audio/mp3">
     <source src="audio/goodbye_in_her_eyes.ogg" type="audio/ogg"></audio></div>
-  <div id=colder_weather>
+
+  <div id="colder_weather" class="song_name">
+  <p>"Colder Weather"</p>
   <audio controls preload="auto">
     <source src="audio/colder_weather.mp3" type="audio/mp3">
     <source src="audio/colder_weather.ogg" type="audio/ogg"></audio></div>
-  <div id="loving_you_easy">
+
+  <div id="loving_you_easy" class="song_name">
+  <p>"Loving You Easy"</p>
   <audio controls preload="auto">
     <source src="audio/loving_you_easy.mp3" type="audio/mp3">
     <source src="audio/loving_you_easy.ogg" type="audio/ogg"></audio></div>
+
   <footer>
     <p>This page was created by Savanna Kearney. To find out more about Zac Brown Band, visit <a href="http://www.zacbrownband.com/">zacbrownband.com</a>.</p>
+  </footer>
+</article>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
